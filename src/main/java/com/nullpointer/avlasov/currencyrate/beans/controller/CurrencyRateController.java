@@ -35,9 +35,4 @@ public class CurrencyRateController {
         return rates.get(code);
     }
 
-    @RequestMapping(value = "/test", method = RequestMethod.GET)
-    @ResponseBody
-    public String test() {
-        return "Hello!";
-    }
 }
